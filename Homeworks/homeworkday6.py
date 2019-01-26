@@ -1,3 +1,15 @@
+#Homework=Write a program to accept an n integer form user and print tables from 2 to n
+iNo=eval(input("Enter the number"))
+#Table(iNo)
+
+def Table(iNum):
+	for i in range(2,iNum):
+		print("This is table of ",i)
+		for j in range(1,11):
+			print(i*j)
+		
+Table(iNo)
+
 #Programs using functions
 '''
 #Write a program to accept a string from user and check if it starts with capital 't'
